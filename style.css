@@ -232,28 +232,32 @@ html {
   }
 }
 
-@media screen and (width <= 540px) {
+@media screen and (width <= 600px) {
   html {
     font-size: 16px;
   }
-
-}
-
-
-@media screen and (width <= 480px) {
-  html {
-    font-size: 16px;
-  }
-
-  .nav__links {
+    .nav__links {
     gap: 1rem;
   }
 
 }
 
-@media screen and (width <= 320px) {
+@media screen and (width <= 540px) {
   html {
-    font-size: 10px;
+    font-size: 14px;
+  }
+    .nav__links {
+    gap: 1rem;
+  }
+
+}
+
+
+
+
+@media screen and (width <= 400px) {
+  html {
+    font-size: 12px;
   }
 
     .banner__image {
