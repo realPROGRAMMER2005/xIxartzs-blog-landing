@@ -134,6 +134,8 @@ html {
   background-color: #1E293B;
   padding: 1.7rem 0.5rem;
   border-radius: 1rem;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
 }
 
 .project-card__inner {
@@ -145,8 +147,8 @@ html {
 }
 
 .project-card__image {
-  min-height: 10rem;
-  min-width: 10rem;
+  max-height: 10rem;
+  max-width: 10rem;
 }
 
 .project-card__img {
@@ -175,8 +177,8 @@ html {
 }
 
 .label {
-  padding: 0.4rem;
-  border-radius: 0.5rem;
+  padding: 0.6rem;
+  border-radius: 10px;
 }
 
 .label_green {
@@ -189,10 +191,33 @@ html {
   color: transparent;
 }
 
+.label_orange {
+  background-image: linear-gradient(to bottom, #6d1313, #5f2f0c);
+}
+
+.label_orange > .label__text {
+  background-image: linear-gradient(to bottom, #f22b2b, #ff7919);
+  background-clip: text;
+  color: transparent;
+  
+}
+
+.label_purple {
+  background-image: linear-gradient(to bottom, #3b1479, #1b4476);
+}
+
+.label_purple > .label__text {
+  background-image: linear-gradient(to bottom, #ab7bfd, #85bafb);
+  background-clip: text;
+  color: transparent;
+}
+
 .label__text {
   font-weight: 800;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
+
+
 
 
 
@@ -230,6 +255,27 @@ html {
   .banner__media {
     justify-content: center;
   }
+
+  .project-card__inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-card__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card__text {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+  }
+
+
+
+
 }
 
 @media screen and (width <= 600px) {
@@ -244,7 +290,7 @@ html {
 
 @media screen and (width <= 540px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
     .nav__links {
     gap: 1rem;
@@ -255,7 +301,7 @@ html {
 
 
 
-@media screen and (width <= 400px) {
+@media screen and (width <= 430px) {
   html {
     font-size: 12px;
   }
