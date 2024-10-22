@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  color: darkgrey;
+  color: white;
   text-decoration: none;
 }
 
@@ -16,10 +16,13 @@ body {
 .title {
   margin-bottom: 1.5rem;
   font-size: 2.4rem;
+  color: white;
+  font-weight: 700;
 }
 
 .text {
   line-height: 1.5;
+  color: darkgrey;
 }
 
 
@@ -36,6 +39,7 @@ html {
 .logo {
   display: flex;
   align-items: center;
+  font-weight: 700;
 }
 
 .logo__icon img {
@@ -50,14 +54,11 @@ html {
   color: white;
 }
 
-.text-family_bold {
-  font-weight: 700;
-}
 
-.text-color_gradient {
+.highlight {
   background-image: linear-gradient(to left,#22D3EE, #0EA5E9);
-    color: transparent;
-    background-clip: text;
+  color: transparent;
+  background-clip: text;
 }
 
 .nav__inner {
@@ -115,6 +116,82 @@ html {
   height: 100%;
   object-fit: cover;
 }
+
+
+.recent-projects__inner {
+  margin: 4.5rem 0;
+
+}
+
+.recent-projects__title {
+  margin-top: 4.15rem;
+
+}
+
+
+.project-card {
+  background-color: #1E293B;
+  padding: 1.7rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.project-card__inner {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.project-card__image {
+  min-height: 10rem;
+  min-width: 10rem;
+}
+
+.project-card__img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-card__right {
+  max-width: 42rem;
+}
+
+.project-card__title {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.project-card__type {
+  font-size: 0.7rem;
+}
+
+.label {
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+}
+
+.label_green {
+  background-image: linear-gradient(to bottom, #075a3e, #698635);
+}
+
+.label_green > .label__text {
+  background-image: linear-gradient(to bottom, #14dd9a, #c9ff6b);
+  background-clip: text;
+  color: transparent;
+}
+
+.label__text {
+  font-weight: 800;
+  font-size: 0.7rem;
+}
+
+
+
+
 
 
 
