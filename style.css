@@ -23,6 +23,7 @@ body {
 .text {
   line-height: 1.5;
   color: darkgrey;
+  font-size: 1rem;
 }
 
 
@@ -169,6 +170,10 @@ html {
   font-size: 0.7rem;
 }
 
+.project-card__title {
+  font-size: 1.5rem;
+}
+
 .label {
   padding: 0.4rem;
   border-radius: 0.5rem;
@@ -205,9 +210,9 @@ html {
   
 }
 
-@media screen and (width <= 768px) {
+@media screen and (width <= 790px) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .banner__inner {
@@ -229,7 +234,7 @@ html {
 
 @media screen and (width <= 540px) {
   html {
-    font-size: 12px;
+    font-size: 16px;
   }
 
 }
@@ -237,7 +242,7 @@ html {
 
 @media screen and (width <= 480px) {
   html {
-    font-size: 11px;
+    font-size: 16px;
   }
 
   .nav__links {
