@@ -176,6 +176,10 @@ html {
   font-size: 1.5rem;
 }
 
+.project-card__text {
+  min-height: 65px;
+}
+
 .label {
   padding: 0.6rem;
   border-radius: 10px;
@@ -215,6 +219,25 @@ html {
 .label__text {
   font-weight: 800;
   font-size: 0.9rem;
+}
+
+.latest-posts__upper {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.view-all-button__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.view-all-button__icon {
+  margin-left: 0.7rem;
 }
 
 
@@ -271,6 +294,7 @@ html {
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: center;
+
   }
 
 
